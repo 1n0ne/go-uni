@@ -1,0 +1,123 @@
+html, body {
+    height: 100vh;
+
+    
+}
+*{
+    font-size: 20px;
+}
+
+.header{
+            background-color: #34495E;
+            height: 100px;
+            margin-top: 0px;
+        }
+
+
+        .navbar{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            
+
+
+        }
+        
+        .logo{
+            width: 80px;
+            cursor: pointer;
+            margin-right:  60px;
+            
+        }
+
+        nav{
+            flex:1;
+            text-align: right;
+            color: #FFFFFF;
+            margin-right:  100px;
+        }
+
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 60px;
+            color: #FFFFFF;
+            font-weight:bold;
+            padding: 15px  ;
+            transition:.5s;
+            border-radius: 2rem;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: #FFFFFF;
+
+        }
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-top: 30px;
+  justify-content: center;
+
+}
+input[type=text], input[type=password] {
+  
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 2px solid #34495E;
+  text-align: right;
+  border-radius: 5px;
+  border-right: 6px solid #34495E;
+
+}
+select{
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 2px solid #34495E;
+  text-align: right;
+border-radius: 5px;
+   border-right: 6px solid #34495E;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.registerbtn{
+
+border : none;
+font-weight:bold;
+padding: 15px 32px;
+text-align: center;
+border-radius: 5px;
+color: white;
+display: inline-block;
+font-size: 20px;
+cursor: pointer;
+background-color: #34495E;
+ margin-top: 50px;
+
+}
+
+.footer {
+       background-color: #34495E;
+       padding: 30px;
+      text-align: center;
+      margin-bottom: 0px;
+      margin-top: auto;
+
+}    
+
+     .footer p{
+        color: #FFFFFF;
+     }

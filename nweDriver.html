@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head> 
+	<meta charset="utf-8">
+	<title>تسجيل جديد</title>
+	<link rel="stylesheet" type="text/css" href="css\DriverLoginStyleSheet.css">
+	<link rel="styleSheet" type="text/css" href="css\stylesheet.css">
+</head>
+<body>
+
+	  <form action="register.php">
+  <div class="container">
+    <h3>البيانات الشخصية</h3>
+    <p></p>
+    <hr>
+
+    <label><b>الاسم </b></label>    
+<br>
+    <input type="text" placeholder="ادخل الاسم " name="name" id="name" required><br>
+
+    <label><b>رقم الجوال</b></label>        
+<br>
+    <input type="text" placeholder="512345678" name="Phone" id="Phone" pattern="[0-9]{9}"><br>
+
+
+    <label><b>كلمة المرور</b></label>    
+<br>
+    <input type="password" placeholder="ادخل كلمة المرور" name="psw" id="psw" required><br>
+
+    
+       
+    <h3>بيانات النقل</h3><hr>
+        
+    <label><b>نوع الحافلة</b></label><br>
+    <input type="radio" name="bus" value="BUS">
+          <label >باص</label><br>
+    <input type="radio"  name="bus" value="Chevrolet Van">
+          <label >فان</label><br><br>
+    
+
+
+
+    
+    <label><b>الحي</b></label><br>
+            <select calss="Neighborhood" id="Neighborhood" name="Neighborhood" >
+                <option>المنطقه</option>
+ 
+    <option value="1"> الحلقة الغربية - الحلقة الشرقية - القيم</option>
+    <option value="3"> الحلقة الغربية - الحلقة الشرقية - مخطط القاضي</option>
+    <option value="4"> وادي النمل - المنتزة</option>
+    <option value="5"> العرفاء</option>
+    <option value="6"> ريحه - الواصليه</option>
+    <option value="7"> السحيلي</option>
+    <option value="8"> السر - الزوران</option>
+    <option value="9"> معشي</option>
+    <option value="10"> الرميدة - الزوران</option>
+    <option value="11"> البلد</option>
+    <option value="12"> الواسط - السيل الصغير</option>
+    <option value="13"> ريحه - رحاب</option>
+    <option value="14"> قيا</option>
+    </select>
+    <br>
+    
+    
+    <label><b>الفترة</b></label><br>
+    <select class="select-selected" name="Time" required>
+    <option value="1">صباحي</option>
+    <option value="2">مسائي</option>
+    </select>
+    <br>
+
+    
+    <input class="select-selected" type="number" min="100" max="800" step="50" value="100" name="fee" id="fee"  required>
+    <label><b>رسوم الاشتراك الشهري</b></label><br><br>
+
+    <p>من خلال إنشاء حساب ، فإنك توافق على <a href="#">شروطنا & خصوصيتنا</a>.</p>
+
+    <button type="submit" class="registerbtn">تسجيل</button>
+  </div>
+  
+  <div class="container signin">
+    <p>هل لديك حساب بالفعل ؟<a href="driverLogin.html">تسجيل دخول</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>

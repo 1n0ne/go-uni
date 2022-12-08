@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head> 
+	<meta charset="utf-8">
+	<title>تسجيل دخول</title>
+	<link rel="stylesheet" type="text/css" href="css\DriverLoginStyleSheet.css">
+	<link rel="styleSheet" type="text/css" href="css\stylesheet.css">
+</head>
+<body>
+
+	  <form action="loginchick.php" method="post">
+  <div class="container">
+    <h1>اهلاً بك</h1>
+    <p></p>
+    <hr> 
+    <label><b>الاسم</b></label>        
+<br>
+    <input type="text" name="name" required><br> 
+
+
+
+    <label><b>رقم الجوال</b></label>        
+<br>
+    <input type="text" placeholder="512345678" name="Phone" id="Phone" pattern="[0-9]{9}" required><br>
+
+    <label><b>كلمة المرور</b></label>    
+<br>
+    <input type="password" placeholder="ادخل كلمة المرور" name="psw" id="psw" required><br>
+
+    <button type="submit" class="registerbtn">تسجيل</button>
+  </div>
+  
+  <div class="container signin">
+    <p>ليس لديك حساب؟&nbsp;&nbsp;&nbsp;<a href="nweDriver.html">إنشاء حساب</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
