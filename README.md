@@ -13,3 +13,5 @@ ensure you have Git installed on your operating system.
 ```
 git clone https://github.com/1n0ne/go-uni
 ```
+<h1>License </h1>
+MIT
